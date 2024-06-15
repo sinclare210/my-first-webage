@@ -1,12 +1,41 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    
+    line-height: 1.5;
+    font-size: 16px;
+    color: #444444;
 }
 #navbar{
     width: 100px;
     padding: 8px;
     margin: auto auto;
+}
+h1{
+    font-size: 2.5rem;
+    color: #222222;
+}
+h2{
+    font-size: 2rem;
+    color: #222222;
+}
+h3{
+    font-size: 1.75rem;
+    color: #222222;
+}
+h4{
+    font-size: 1.5rem;
+    color: #222222;
+}
+h5{
+    font-size: 1.25rem;
+    color: #222222;
+}
+h6{
+    font-size: 1rem;
+    color: #222222;
 }
 
 
@@ -19,6 +48,7 @@ img{
     display: flex;
     margin: 0 auto;
     max-width: 800px;
+    font-size: 1.25rem;
 }
 #banner{
     width: 100%;
@@ -70,9 +100,10 @@ a{
 }
 .copy{
 text-align: center;
-background-color: ghostwhite;
+background-color: #F8FAFC;
 padding: 10px;
 margin: 0;
+font-size: 0.875rem;
 }
 #jobs{
     
@@ -93,19 +124,42 @@ margin: 0;
 .jobs-header-row th{
     border: 1px solid gray;
     padding: 8px;
-    background-color: aliceblue;
+    background-color: #BFDBFE;
     text-align: center;
+    color: #222222;
 }
 .jobs-data-row td{
     border: 1px solid gray;
 }
-form{
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 8px;
-    
-}
+
 #size{
     max-width: 800px;
     margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #3BB2F6;
+}
+a:hover, a:focus{
+    color: #1D4ED8;
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#application-form label{
+    font-weight: 600;
+    
+}
+
+#application-form input, select{
+    padding: 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form-group{
+    margin: 16px;
 }

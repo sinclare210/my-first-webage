@@ -75,23 +75,51 @@
     </table>
       </div>
 </div>
+<div id="application">
+    <h2>Submit Your Apllication</h2>
+    
+    <form action="process-form.php" method="post" id="application-form">
+            <div class="form-group">
+                <label for="Name">Name</label><br>
+                <input type="text" id="name" name="name" required placeholder="john doe">
+            </div>
+            
+           <div class="form-group">
+                <label for="Email">Email</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+             <div class="form-group">
+                <label for="number">Phone</label><br>
+                <input type="number" id="number" name="number" required>
+            </div>
 
-        <h2>Submit Your Apllication</h2>
-        <form action="" method="get">
-            <p>Name</p>
-            <input type="text" placeholder="Full Name">
-            <p>Email</p>
-            <input type="email" placeholder="Email">
-            <p>Job Title</p>
-            <input type="text" placeholder="Job Title">
-            <p>Resume</p>
-            <input type="file">
-            <p>Link to cover letter</p>
-            <input type="url" placeholder="Cover letter link">
-            <button type="submit">Submit</button>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="12" cols="5"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="submit">
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+             <div class="form-group">
+                <label for="Position">Position Applied For</label><br>
+                <select id="position" name="position Applied for" required>
+                    <option value="Frontend"> Frontend Developer</option>
+                    <option value="Backend"> Backend Developer</option>
+                    <option value="Fullstack"> Full Stack Developer</option>
+                    <option value="Machine Learning">Machine Learning Developer</option>
+                </select>
+            </div>
+            
 
         </form>
-    </div>
+</div>
+        
+        
+    
 
    <div id="footer">
     <ul id="footer-links">
