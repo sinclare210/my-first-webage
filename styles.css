@@ -48,15 +48,9 @@ img{
 }
 h1,h2{
     text-align: center;
+    font-family: "Inter", sans-serif;
 }
-#jobs{
-    max-width: 800px;
-    padding: 0 8px;
-    margin: 0 auto;
-}
-.apply{
-    float: right;
-}
+
 a{
     text-decoration: none;
 }
@@ -79,4 +73,39 @@ text-align: center;
 background-color: ghostwhite;
 padding: 10px;
 margin: 0;
+}
+#jobs{
+    
+  max-width: 800px;
+  
+}
+#jobs-table{
+    
+    border: 1px solid grey;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#jobs-table tr:nth-child(odd){
+   background-color: ghostwhite;
+}
+.jobs-header-row th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.jobs-data-row td{
+    border: 1px solid gray;
+}
+form{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 8px;
+    
+}
+#size{
+    max-width: 800px;
+    margin: 0 auto;
 }
