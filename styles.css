@@ -8,11 +8,7 @@
     font-size: 16px;
     color: #444444;
 }
-#navbar{
-    width: 100px;
-    padding: 8px;
-    margin: auto auto;
-}
+
 h1{
     font-size: 2.5rem;
     color: #222222;
@@ -43,7 +39,7 @@ img{
     /* background-size: cover; */
     width: 100%;
     
-}
+/* }
 #about{
     display: flex;
     margin: 0 auto;
@@ -136,13 +132,7 @@ font-size: 0.875rem;
     max-width: 800px;
     margin: 0 auto;
 }
-a{
-    text-decoration: none;
-    color: #3BB2F6;
-}
-a:hover, a:focus{
-    color: #1D4ED8;
-}
+
 #application{
     max-width: 800px;
     margin: 0 auto;
@@ -174,19 +164,16 @@ a:hover, a:focus{
     color: white;
     background-color: #3B8BF6;
     
-}
-
-@media screen and (orientation: landscape) {
-    body{
-        
-        background-color: lightblue;
-    }
 } */
+
+
 
 html{
     font-size: 14px;
 }
-
+img{
+    width: 50%;
+}
 body{
     margin: 0;
     padding: 0;
@@ -219,6 +206,85 @@ h5{
 h6{
     font-size: 1rem;
 }
-@media screen and (min-width:576px) {
+
+a{
+    text-decoration: none;
+    color: #3BB2F6;
+}
+a:hover, a:focus{
+    color: #1D4ED8;
+}
+#navbar{
+    width: 120px;
+    padding: 6px;
+    margin: auto 0;
+}
+
+#banner{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+#about{
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 1.25rem;
+    flex-direction: column;
+}
+
+
+#team{
+    width: 100%;
+    border-radius: 10px;
+}
+#team img{
     
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+@media screen and (min-width:576px) {
+    html{
+        font-size: 16px;
+    }
+    #banner{
+        height: 250px;
+    }
+    h1{
+    
+    margin: 16px 0;
+}
+}
+@media screen and (min-width: 768px) {
+    html{
+        font-size: 18px;
+    }
+    #banner{
+        height: 320px;
+    }
+    h1{
+    text-align: center;
+    margin: 20px 0;
+}
+#about{
+    max-width: 800px;
+    flex-direction: row;
+}
+}
+@media screen and (min-width: 992px) {
+    html{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    html{
+        font-size: 22px;
+    }
 }
